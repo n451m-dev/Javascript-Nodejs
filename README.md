@@ -1,2 +1,2 @@
 # JavaScript
-Algorithm implementation of freecodecamp.org
+Intermediate Algorithm Scripting on freecodecamp.org
