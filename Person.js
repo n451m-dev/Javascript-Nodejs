@@ -27,6 +27,6 @@ var Person = function(firstAndLast) {
       fullName = name;
     };
   };
-  
+  //this is the same solution as avalable in the freecodecamp
   var bob = new Person("Bob Ross");
   bob.getFullName();
