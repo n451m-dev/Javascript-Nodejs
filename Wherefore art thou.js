@@ -3,7 +3,7 @@ function whatIsInAName(collection, source) {
   
   var srcKeys = Object.keys(source);
 
-  // filter the collection
+  // filter the collection/tff
   return collection.filter(function(obj) {
     for (var i = 0; i < srcKeys.length; i++) {
       if (
