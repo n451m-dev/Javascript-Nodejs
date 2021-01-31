@@ -1,25 +1,16 @@
 
-rot13("SERR YBIR 10");
+rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.");
 
 function rot13(str) {
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var aftershiftstr=[];
-
     for(let i=0; i<str.length; i++){
-        let searcher=str[i];
-        let index=alphabet.search(searcher);
-        if(index===-1){
-            aftershiftstr.push(searcher);
+        let character=str.charCodeAt(i)
+        if(!(65<=character&&character<=90)){
+            aftershiftstr.push( String.fromCharCode(character));
         }else{
-        let shift = index+13;
-        if(shift>25){
-            shift = shift-26;
+        let shift = String.fromCharCode(character%26+65);
+        aftershiftstr.push(shift);
         }
-        aftershift = alphabet[shift];
-        aftershiftstr.push(aftershift)
-    }
     }
     console.log(aftershiftstr.join(""));
-  }
-  
-  
+}
