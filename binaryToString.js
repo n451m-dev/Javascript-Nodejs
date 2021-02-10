@@ -5,6 +5,5 @@ function binaryAgent(str) {
     outputStr=chararr.join(''); //Join the array back to a string
     console.log(outputStr);
   }
-
   binaryAgent("1010011 1110100 1100001 1100011 1101011");
  
