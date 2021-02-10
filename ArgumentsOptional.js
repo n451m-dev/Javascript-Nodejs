@@ -1,7 +1,6 @@
 addTogether(5)(7);
 
 function addTogether(arg1, arg2) {
-  
     if(typeof arg1!="number"){
       console.log(undefined);
     }
