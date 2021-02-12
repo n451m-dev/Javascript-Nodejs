@@ -1,6 +1,5 @@
 
 spinalCase('thisIs_Spinal Tap');
-
 function spinalCase(str) {
     var newarr=[];
     var regex = /[_ ]|(?=[A-Z])/;

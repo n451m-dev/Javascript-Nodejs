@@ -5,7 +5,6 @@ function truthCheck(collection, pre) {
         
         if(collection[i].hasOwnProperty(pre)){
         var prvl = collection[i][pre];
-        
         if(prvl==null){
             flag=false;
         }

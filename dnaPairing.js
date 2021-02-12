@@ -7,7 +7,6 @@ function pairElement(str) {
     return newarr;
   }
 
-
   function getPair(letter){
     switch (letter) {
         case "G":
