@@ -3,8 +3,8 @@
 
 function telephoneCheck(str) {
 
-    var regex = /(?:1 555 555 |\(555\) ?555\-|555(?: 555 |555)|555\-555\-)5555/;
+    var regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
      console.log(regex.test(str));
   }
   
- //x-github-desktop-auth://oauth?code=4644e461a60b002f1964&state=39c84176-8861-4346-9012-1c1fc441c66c
+//copied soluion
