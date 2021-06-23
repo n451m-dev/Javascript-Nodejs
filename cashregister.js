@@ -18,7 +18,7 @@ var denom = [
     // Transform CID array into drawer object
     var register = cid.reduce(
       function(acc, curr) {
-        acc.total += curr[1];
+        acc.total = acc.total + curr[1];
         acc[curr[0]] = curr[1];
         return acc;
       },
@@ -45,8 +45,8 @@ var denom = [
       // And while the denomination is larger than the change remaining
       while (register[curr.name] > 0 && change >= curr.val) {
         change -= curr.val;
-        register[curr.name] -= curr.val;
-        value += curr.val;
+        register[curr.name] = register[curr.name]-curr.val;
+        value = value + curr.val;
   
         // Round change to the nearest hundreth deals with precision errors
         change = Math.round(change * 100) / 100;
