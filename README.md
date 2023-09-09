@@ -1,2 +1,2 @@
 # JavaScript
-Intermediate Algorithm Scripting on freecodecamp.org,
+Solution of Intermediate Algorithm Scripting on freecodecamp.org,
