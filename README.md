@@ -1,2 +1,2 @@
 # JavaScript And Node.js
-Solution of Intermediate Algorithm Scripting on freecodecamp.org,
+Crucial Node.js and JavaScript topics, concepts and practiced programs,
